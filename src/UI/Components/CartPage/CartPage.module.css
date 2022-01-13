@@ -1,0 +1,50 @@
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.cart{
+    padding: 10px;
+    margin-top: 30px;
+    height: 100px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    /*flex-wrap: nowrap;*/
+}
+.img{
+    height: 80px;
+    width: 80px;
+    background-image: url("https://image.shutterstock.com/image-vector/red-vector-banner-ribbon-hot-260nw-1176567643.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+.amount{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.orderSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+    width: 100%;
+}
+@media screen and (max-width: 425px) {
+    .amount{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
